@@ -1,0 +1,27 @@
+{
+  "name": "caipirinha-bot",
+  "version": "1.0.0",
+  "description": "Um Bot para mostras as minhas habilidades com JavaScript e NodeJS.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "ffmpeg-static": "^4.3.0",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/KaliemSB/Caipirinha-BOT"
+  },
+  "keywords": [
+    "BOT",
+    "Discord",
+    "Caipirinha"
+  ],
+  "author": "Kaliem",
+  "license": "GPL-3.0"
+}
