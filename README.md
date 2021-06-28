@@ -36,7 +36,7 @@ $ node index.js
 
 ## 💻 Projeto
 
-Caipirinha BOT é um Bot feito para o Discord com o proposito de mostrar as minhas habilidades com JavaScript e NodeJS que usa Tecnologias bem Básicas como Node, o Bot foi feito com inspiração no meu gato que leva o mesmo nome.
+Caipirinha BOT é um Bot feito para o Discord com o proposito de mostrar as minhas habilidades com JavaScript e NodeJS que usa Tecnologias bem Básicas como o consumo de API, o Bot foi feito com inspiração no meu gato que leva o mesmo nome.
 
 ## ⚙️ Uso
 
