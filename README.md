@@ -1,29 +1,49 @@
+<h1 align="center">
+  Caipirinha BOT
+</h1>
 
-<h1 align="center">Caipirinha BOT</h1>
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=8257E5&labelColor=000000" alt="NLW Together 06" />
+  
+  <img src="https://img.shields.io/github/stars/rocketseat-education/nlw-06-reactjs?label=stars&message=MIT&color=8257E5&labelColor=000000" alt="Stars">
+
+  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000" alt="License">   
+</p>
+
+<h1 align="center">
+    <img alt="Letmeask" src=".github/cover.svg" />
+</h1>
+
+<br>
+
+## 🧪 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [JavaScript](https://www.javascript.com/)
+
+## 🚀 Como executar
+
+Clone o projeto e acesse a pasta do mesmo.
+
+```bash
+$ git clone https://github.com/KaliemSB/Caipirinha-BOT
+$ cd caipirinha-bot
+```
+
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ npm install
+
+# Iniciar o projeto
+$ node index.js
+```
+
+## 💻 Projeto
 
 Caipirinha BOT é um Bot feito para o Discord com o proposito de mostrar as minhas habilidades com JavaScript e NodeJS que usa Tecnologias bem Básicas como Node, o Bot foi feito com inspiração no meu gato que leva o mesmo nome.
 
-## Instalação
+## 📝 License
 
-1) git clone https://github.com/KaliemSB/Caipirinha-BOT
-2) cd caipirinha-bot
-3) node index.js
-## Uso
-
-| Comandos | Uso | Descrição |
-| ----- |---- | ---- |
-| !cat|| Gatos aleatórios.|
-| !corona|!corona <país>| Rastreador dos dados de Covid-19 no mundo todo.|
-| !dog|| Cachorros aleatórios.|
-| !fox|| Raposas aleatórios.|
-| !splash|!splash <campeão> <numero> | Splash art dos campões de League of Legends.|
-
-## Licença
-[GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html).
-
-## Badges
-<div align="center">
-<img src="https://forthebadge.com/images/badges/contains-cat-gifs.svg">
-<img src="https://forthebadge.com/images/badges/made-with-javascript.svg">
-<img src="https://forthebadge.com/images/badges/makes-people-smile.svg">
-</div>
+Esse projeto está sob a licença GNU GPL v3. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
