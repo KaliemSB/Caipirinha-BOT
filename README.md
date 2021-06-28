@@ -8,7 +8,6 @@ Caipirinha BOT é um Bot feito para o Discord com o proposito de mostrar as minh
 1) git clone https://github.com/KaliemSB/Caipirinha-BOT
 2) cd caipirinha-bot
 3) node index.js
-4) 
 ## Uso
 
 | Comandos | Uso | Descrição |
