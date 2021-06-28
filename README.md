@@ -8,7 +8,7 @@ Caipirinha BOT é um Bot feito para o Discord com o proposito de mostrar as minh
 1) git clone https://github.com/KaliemSB/Caipirinha-BOT
 2) cd caipirinha-bot
 3) node index.js
-
+4) 
 ## Uso
 
 | Comandos | Uso | Descrição |
@@ -24,7 +24,7 @@ Caipirinha BOT é um Bot feito para o Discord com o proposito de mostrar as minh
 
 ## Badges
 <div align="center">
-[![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
+<img src="https://forthebadge.com/images/badges/contains-cat-gifs.svg">
+<img src="https://forthebadge.com/images/badges/made-with-javascript.svg">
+<img src="https://forthebadge.com/images/badges/makes-people-smile.svg">
 </div>
