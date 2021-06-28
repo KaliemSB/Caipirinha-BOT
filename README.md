@@ -3,18 +3,12 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=8257E5&labelColor=000000" alt="NLW Together 06" />
+  <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" alt="JavaScript" />
   
-  <img src="https://img.shields.io/github/stars/rocketseat-education/nlw-06-reactjs?label=stars&message=MIT&color=8257E5&labelColor=000000" alt="Stars">
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Love">
 
-  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000" alt="License">   
+  <img  src="https://forthebadge.com/images/badges/contains-cat-gifs.svg" alt="Cat Gifs">   
 </p>
-
-<h1 align="center">
-    <img alt="Letmeask" src=".github/cover.svg" />
-</h1>
-
-<br>
 
 ## 🧪 Tecnologias
 
