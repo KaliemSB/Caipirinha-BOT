@@ -1,24 +1,30 @@
 
-<h1 align='center'>Caipirinha BOT</h1>
+<h1 align="center">Caipirinha BOT</h1>
 
-# Visão geral
-Caipirinha BOT é um Bot feito para o Discord com o proposito de mostras as minhas habilidades com JavaScript e NodeJS que usa Tecnologias bem Basicas como Node Fetch, o Bot foi feito com inspiração no meu gato que leva o mesmo nome, o Bot que tem alguns comandos como:
+Caipirinha BOT é um Bot feito para o Discord com o proposito de mostrar as minhas habilidades com JavaScript e NodeJS que usa Tecnologias bem Básicas como Node, o Bot foi feito com inspiração no meu gato que leva o mesmo nome.
 
-- Cat (Gatos aleatórios.)
-- Corona (Rastreador dos dados de Covid-19 no mundo todo.)
-- Dog (Cachorros aleatórios.)
-- Fox (Raposas aleatórias.)
-- Splash (Splash Art dos campeões do LoL.)
+## Instalação
 
-# Como usar
-Você pode convidar o Bot para o seu servidor ou então entrar no nosso servidor do discord onde o Bot já está. [Servidor oficial do Discord](https://discord.gg/bZZYDCJ)
+1) git clone https://github.com/KaliemSB/Caipirinha-BOT
+2) cd caipirinha-bot
+3) node index.js
 
-# Licença
+## Uso
 
-Feito com base na licença [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+| Comandos | Uso | Descrição |
+| ----- |---- | ---- |
+| !cat|| Gatos aleatórios.|
+| !corona|!corona <país>| Rastreador dos dados de Covid-19 no mundo todo.|
+| !dog|| Cachorros aleatórios.|
+| !fox|| Raposas aleatórios.|
+| !splash|!splash <campeão> <numero>| Splash art dos campões de League of Legends.|
+
+## Licença
+[GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+## Badges
 <div align="center">
-<br>
-<a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/made-with-javascript.svg"></a>
-<a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/built-with-love.svg"></a>
-<a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/contains-cat-gifs.svg"></a>
-<div>
+[![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
+</div>
