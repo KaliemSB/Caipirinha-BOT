@@ -29,4 +29,4 @@ fs.readdir("./commands/", (err, files) => {
 });
 
 client.on("ready", () => console.log("Online!"));
-client.login(DISCORD_TOKEN)
+client.login(process.env.DISCORD_TOKEN)
