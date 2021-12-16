@@ -6,12 +6,13 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "ffmpeg-static": "^4.3.0",
+    "firebase": "^9.6.1",
+    "firebase-admin": "^10.0.0",
     "node-fetch": "^2.6.1",
     "puppeteer": "^8.0.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

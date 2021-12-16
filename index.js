@@ -28,4 +28,4 @@ fs.readdir("./commands/", (err, files) => {
 });
 
 client.on("ready", () => console.log("Online!"));
-client.login("NzE1OTYxNDk3NTg2NzYxNzU5.XtE1Gg.IBfByCVKExZC34QPKvy5ev1UIGM")
+client.login("NzE1OTYxNDk3NTg2NzYxNzU5.XtE1Gg.GGuesl-9xbDGGbNumtb0BhyXGV8")

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "caipirinha-bot-d598a",
+  "private_key_id": "8b25b2819c3767dce5501639fe88cbf4ab40db4b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0lyVH+8ImiiEK\nLJI2h0Y71MR6z4j8O3wxkSRr0+5i4r7lEwuLI/qS02GZ48SBR3nszpsV8raBaHjG\nPIgqUUxrj/qFnZpSzaxDukg9X6RYVEsGApYXUoni1QoDkA3Z3popKecaUU7a9bev\n7K3PJif35UaSkLZ8RqeCGVzlizgmjLVjQ4nFnai126LYfk55kYYE6VmQt8+/3BBu\nrRbqwua79j+/4FQh29TpNY6yL8j73iXqWYblIMhS47cLWXKzsY2Vuwg3gCGgeb78\n84NlRBrtkdKZ2CDKrc29rhrA+w7LV0pEk6R2qaZ5cM6umOlHRnHdyT8ggbUtWpaz\nIaKK+rMXAgMBAAECggEANvToO4e6BdBzTY1S0ZVJIlwVjuopXdkcalkpJEdSfHVU\ncpHhKW7Bin0ZbqOJ4W3HBPG68Gr0b11Do9A3/+jNwM4IBzF3DUvZ6KJ/6W15rge4\n7RNMabyMiaMbcQodrPe5Il3GHpQv0yKDy93S5v9NmnsDhwbTAe7eexEM3C4J4HDe\nxDBMz9LywX7cW+KWNpywdfBDOaWPb6NFu7ir5BYUwyfFcsvq79Hbpf6Y5GGAC7LR\nonsQ1aJfWrmcu3SH0KpQgjweowhjgM2+o/r7Dfpu5ejQqikXPsaEnP6Ak0aA7KHG\nHf/J+4M9lcsebT5r+uckrd2+95wqXhxZfpcpmkI3wQKBgQDX34K8LD3nXixDVR7V\nyXcvZL6iW6RuhO6QprQDEI0tbBtSpbVia80parMAtEMfz6+zjLn/JneV+hCSo09d\nldYxhNwWqaDF+nTmXq6MtoIxunuJJOnESPTemU8ug1sFa1LOLXWJLmmJDzYV2etG\ntl5bbDAiHKGqQ5iZi15IdhhPswKBgQDWKK5owiTh1mF192xiFM1VqvCUXyrhoCSS\nyo+FDj9DTt9vylysjfKXeNVVyJlTDb/IqGwKj0fjNk8yGfsMUk2IeKDou+OWRI1t\nfjXHOowkjG3Lhg6wnAoDiCSgo8+hNaz1rNzmdV2swON8ciOBLPOYEuOaOaSp8mZl\njQEq07s9DQKBgB1pTWWX3YNFWGCAG2hjP4LMhhCWzctk/x/kJoh4W9PBc+OJwjG7\noEMxT1wcMz0FTdn3pWu28PoVDOb9qxWEEZ/DizznNYlju0ObyMpRH2HpF2WzCsp8\naihd2OTsbp1JZwnCNc5P7X8H/IVzoFONC0QHdHNhVUFeXk8lJt5WgK9zAoGAUVMb\ngA6RoO0fD4QItWo+21RRjZZiG1IL8W5Yd+eEIJQ4BySqcqBoyhqJsMy/ZKmo9ZL3\njD8CxoaeJmF1UyWB6dwdBqQq9apMppKx61kRVOO64fmjZG+s4dB2UEZEl2xhpN2i\n+SUCkJKjEGPrlaczTcGGis9u91ZkihW0psXGqZUCgYAf3cQAoOt42DI1kIF/vdq2\n1F9yxNqaLOaWhL7Z62q5TNVNWSUpP9sK9apbH2ilTbU7n/1AdaP+sGUAhbCBTJr6\nWW+9kqfe6pesmGqVVDL9oRmdmXHngaQrbz7s0Iz61YzS/3+rDJm0JeKn1SVIN8SI\nMRgK6+mcqQAevkxH6LnFfQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fwk15@caipirinha-bot-d598a.iam.gserviceaccount.com",
+  "client_id": "106656305154613182788",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fwk15%40caipirinha-bot-d598a.iam.gserviceaccount.com"
+}
