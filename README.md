@@ -42,11 +42,7 @@ Caipirinha BOT é um Bot feito para o Discord com o proposito de mostrar as minh
 
 | Comandos | Uso | Descrição |
 | ----- |---- | ---- |
-| !cat|| Gatos aleatórios.|
-| !corona|!corona <país>| Rastreador dos dados de Covid-19 no mundo todo.|
-| !dog|| Cachorros aleatórios.|
-| !fox|| Raposas aleatórios.|
-| !splash|!splash <campeão> <numero>| Splash art dos campões de League of Legends.|
+| !rune | !rune <campeão> | Runas e builds diretamente do blitz.gg |
 
 ## 📝 License
 
