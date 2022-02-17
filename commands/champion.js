@@ -18,9 +18,8 @@ exports.run = async(client, message, args) => {
   query = query.charAt(0).toUpperCase() + query.slice(1);
 
   response = response[query]
-
-  message.channel.send(
-`
+  
+  const messageSend = `
 **Campeão: ${response.name}**
 
 **Passiva: ${response.spells[0].name}**
@@ -44,8 +43,10 @@ Resistencia magica: ${response.stats.spellblock}
 Vida: ${response.stats.hp}
 Mana: ${response.stats.mp}
 Velocidade de movimento: ${response.stats.movespeed}
-`)
+`
+
+  message.channel.send(messageSend)
   }
   exports.config = {
-    aliases: ["champion", "champ"]
+    aliases: ["champion"]
   }
