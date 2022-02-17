@@ -51,7 +51,6 @@ Velocidade de movimento: ${response.stats.movespeed}
 
 **Dicas:**
 ${ally}
-
 **Counter:**
 ${enemy}
 `)
