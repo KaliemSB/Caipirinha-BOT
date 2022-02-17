@@ -22,6 +22,8 @@ exports.run = async(client, message, args) => {
 
   response = response[query]
 
+  console.log(response)
+
   let enemy = response.tips.enemy.map(x => `${x}\n`).join('')
 
   let ally = response.tips.ally.map(x => `${x}\n`).join('')
