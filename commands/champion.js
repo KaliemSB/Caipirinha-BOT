@@ -13,11 +13,12 @@ exports.run = async(client, message, args) => {
 
   let response = undefined
 
-  try {
-    response = await fetch('https://blitz-cdn-plain.blitz.gg/blitz/ddragon/12.4.1/data/pt_BR/champions.json').then(res => res.json())
-  } catch (error) {
-    message.channel.send('Ops! Algo deu errado 🙈')
-  }
+  let response = await fetch('https://blitz-cdn-plain.blitz.gg/blitz/ddragon/12.4.1/data/pt_BR/champions.json')
+    .then(res => res.json())
+    .catch(error => {
+      console.log(error)
+      message.channel.send('Ops! Algo deu errado 🙈')
+    })
 
   query = query.charAt(0).toUpperCase() + query.slice(1);
 
