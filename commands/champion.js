@@ -23,18 +23,9 @@ exports.run = async(client, message, args) => {
 
   response = response[query]
 
-  let enemy = undefined
+  let enemy = response.tips.enemy.map(x => `${x}\n`).join('')
 
-  let ally = undefined
-
-  if (!response.tips && !response.tips.enemy && !response.tips.ally) {
-    enemy = ''
-    ally = ''
-  } else {
-    enemy = response.tips.enemy.map(x => `${x}\n`).join('')
-
-    ally = response.tips.ally.map(x => `${x}\n`).join('')
-  }
+  let ally = response.tips.ally.map(x => `${x}\n`).join('')
 
   message.channel.send(
 `
