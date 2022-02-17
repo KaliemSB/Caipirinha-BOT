@@ -11,9 +11,15 @@ exports.run = async(client, message, args) => {
     query = 'monkeyking'
   }
 
-  let response = await fetch('https://blitz-cdn-plain.blitz.gg/blitz/ddragon/12.4.1/data/pt_BR/champions.json').then(res => res.json())
+  let response = undefined
 
-  response = response.data
+  try {
+    response = await fetch('https://blitz-cdn-plain.blitz.gg/blitz/ddragon/12.4.1/data/pt_BR/champions.json').then(res => res.json())
+  } catch (error) {
+    message.channel.send('Ops! Algo deu errado 🙈')
+  }
+
+  let response = 
 
   query = query.charAt(0).toUpperCase() + query.slice(1);
 
