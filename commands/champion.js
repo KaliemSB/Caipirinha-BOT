@@ -19,10 +19,6 @@ exports.run = async(client, message, args) => {
 
   response = response[query]
 
-  let enemy = response.tips.enemy.map(x => `${x}\n`).join('')
-
-  let ally = response.tips.ally.map(x => `${x}\n`).join('')
-
   message.channel.send(
 `
 **Campeão: ${response.name}**
@@ -48,11 +44,6 @@ Resistencia magica: ${response.stats.spellblock}
 Vida: ${response.stats.hp}
 Mana: ${response.stats.mp}
 Velocidade de movimento: ${response.stats.movespeed}
-
-**Dicas:**
-${ally}
-**Counter:**
-${enemy}
 `)
   }
   exports.config = {
