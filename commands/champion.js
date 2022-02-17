@@ -22,7 +22,7 @@ exports.run = async(client, message, args) => {
 
   response = response[query]
 
-  console.log(response)
+  process.stdout.write(response)
 
   let enemy = response.tips.enemy.map(x => `${x}\n`).join('')
 
