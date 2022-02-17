@@ -19,8 +19,6 @@ exports.run = async(client, message, args) => {
     message.channel.send('Ops! Algo deu errado 🙈')
   }
 
-  let response = 
-
   query = query.charAt(0).toUpperCase() + query.slice(1);
 
   response = response[query]

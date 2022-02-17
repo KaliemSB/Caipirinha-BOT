@@ -5,7 +5,7 @@ async function teste () {
 
   response = response.data
 
-  let query = 'ahri'
+  let query = 'udyr'
 
   query = query.charAt(0).toUpperCase() + query.slice(1);
 
