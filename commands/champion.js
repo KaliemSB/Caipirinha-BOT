@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-import fetch from 'node-fetch';
+const fetch = require('node-fetch')
 
 exports.run = async(client, message, args) => {
   let query = args[0]
