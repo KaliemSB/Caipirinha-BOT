@@ -148,7 +148,7 @@ exports.run = async(client, message, args) => {
 
     context.drawImage(item1, 16*3, 211*3, 28*3, 28*3);
 
-    let item2 = await Canvas.loadImage(`https://ddragon.canisback.com/latest/img/item/${championBuild.most_common_big_item_builds.build[0]}.png`)
+    let item2 = ''
 
     try {
       item2 = await Canvas.loadImage(`https://ddragon.canisback.com/latest/img/item/${championBuild.most_common_big_item_builds.build[0]}.png`)
@@ -158,7 +158,7 @@ exports.run = async(client, message, args) => {
 
     context.drawImage(item2, 48*3, 211*3, 28*3, 28*3);
 
-    let item3 = await Canvas.loadImage(`https://ddragon.canisback.com/latest/img/item/${championBuild.most_common_big_item_builds.build[1]}.png`)
+    let item3 = ''
 
     try {
       item3 = await Canvas.loadImage(`https://ddragon.canisback.com/latest/img/item/${championBuild.most_common_big_item_builds.build[1]}.png`)
@@ -168,7 +168,7 @@ exports.run = async(client, message, args) => {
 
     context.drawImage(item3, 80*3, 211*3, 28*3, 28*3);
 
-    let item4 = await Canvas.loadImage(`https://ddragon.canisback.com/latest/img/item/${championBuild.most_common_big_item_builds.build[2]}.png`)
+    let item4 = ''
 
     try {
       item4 = await Canvas.loadImage(`https://ddragon.canisback.com/latest/img/item/${championBuild.most_common_big_item_builds.build[2]}.png`)
@@ -178,7 +178,7 @@ exports.run = async(client, message, args) => {
 
     context.drawImage(item4, 112*3, 211*3, 28*3, 28*3);
 
-    let item5 = await Canvas.loadImage(`https://ddragon.canisback.com/latest/img/item/${championBuild.most_common_big_item_builds.build[3]}.png`)
+    let item5 = ''
 
     try {
       item5 = await Canvas.loadImage(`https://ddragon.canisback.com/latest/img/item/${championBuild.most_common_big_item_builds.build[3]}.png`)
