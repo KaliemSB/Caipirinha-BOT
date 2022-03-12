@@ -64,11 +64,21 @@ exports.run = async(client, message, args) => {
   }
 
   async function getChampionName(name) {
+    if (name === undefined) championId = 'Udyr'
+
     name = name.toLowerCase()
 
     const capitalized = name.charAt(0).toUpperCase() + name.slice(1);
 
     let championId = capitalized
+
+    if (championId === 'Miss fortune' || championId === 'Miss' || championId === 'Missfortune') {
+      championId = 'MissFortune'
+    }
+
+    if (championId === 'Wukong') {
+      championId = 'MonkeyKing'
+    }
 
     try {
       const championsInPatch = await axios.get(`https://blitz-cdn-plain.blitz.gg/blitz/ddragon/${currentPatch}/data/pt_BR/champions.json`).then(res => res.data.keys)
