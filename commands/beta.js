@@ -72,30 +72,41 @@ exports.run = async(client, message, args) => {
 
     let championId = capitalized
 
-    if (championId === 'Miss fortune' || championId === 'Miss' || championId === 'Missfortune') {
-      championId = 'MissFortune'
-    }
-
-    if (championId === 'Wukong') {
-      championId = 'MonkeyKing'
-    }
+    const champDic = {
+      "Missfortune": "MissFortune",
+      "Miss fortune": "MissFortune",
+      "Miss": "MissFortune",
+      "Wukong": "MonkeyKing",
+      "Macaco": "MonkeyKing",
+    };
 
     try {
       const championsInPatch = await axios.get(`https://blitz-cdn-plain.blitz.gg/blitz/ddragon/${currentPatch}/data/pt_BR/champions.json`).then(res => res.data.keys)
 
-      championId = Object.keys(championsInPatch)[Object.values(championsInPatch).indexOf(capitalized)]
+      championId = Object.keys(championsInPatch)[Object.values(championsInPatch).indexOf(champDic[capitalized] ?? capitalized)]
 
-      if (championId === undefined) message.channel.send('Campeão não encontrado, tente escrever de uma maneira não burra.')
+      if (championId === undefined) throw 'Campeão não encontrado, tente escrever de uma maneira não burra.';
+      
+      return [championId, champDic[capitalized] ?? capitalized]
     } catch (error) {
-      message.channel.send('Algo deu com a verificação do Id do campeão, tente novamente.')
+      message.channel.send('Campeão não encontrado, tente escrever de uma maneira não burra.')
+      return
     }
-
-    return [championId, capitalized]
   }
 
   const tier = getTranslationTier(args[2])
   const laneQuery = getTranslationLane(args[1])
   const championQuery = await getChampionName(args[0])
+
+  if (championQuery === undefined) return
+  if (laneQuery === 'Lane não encontrada.') {
+    message.channel.send('Lane não encontrada, tente escrever de uma maneira não burra.')
+    return
+  }
+  if (tier === 'Elo não encontrado.') {
+    message.channel.send('Elo não encontrado, tente escrever de uma maneira não burra.')
+    return
+  }
 
   console.log(tier, laneQuery, championQuery)
 
@@ -103,6 +114,7 @@ exports.run = async(client, message, args) => {
     championBuild = await axios.get(`https://league-champion-aggregate.iesdev.com/api/champions/${championQuery[0]}?queue=420&region=world&role=${laneQuery}&tier=${tier}`).then(res => res.data.data[0].stats)
   } catch (error) {
     message.channel.send('Algo deu com a verificação da build do campeão, tente novamente.')
+    return
   }
 
   const canvas = Canvas.createCanvas(807, 747);
@@ -114,6 +126,7 @@ exports.run = async(client, message, args) => {
     background = await Canvas.loadImage('https://raw.githubusercontent.com/KaliemSB/api/master/frame1.png');
   } catch (error) {
     background = await Canvas.loadImage('https://raw.githubusercontent.com/KaliemSB/api/master/blank.png');
+    return
   }
 
 	// This uses the canvas dimensions to stretch the image onto the entire canvas
