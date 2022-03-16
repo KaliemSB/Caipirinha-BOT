@@ -28,25 +28,25 @@ fs.readdir("./commands/", (err, files) => {
         });
 });
 
-client.on("voiceStateUpdate", async (message) => {
-    try {
-        const connection = await message.member.voice.channel.join();
-        const dispatcher = connection.play('https://firebasestorage.googleapis.com/v0/b/caipirinha-bot-1e83a.appspot.com/o/audio.mp3?alt=media&token=d8f1ab46-1239-424c-b64e-9dc94a07f554');
+// client.on("voiceStateUpdate", async (message) => {
+//     try {
+//         const connection = await message.member.voice.channel.join();
+//         const dispatcher = connection.play('https://firebasestorage.googleapis.com/v0/b/caipirinha-bot-1e83a.appspot.com/o/audio.mp3?alt=media&token=d8f1ab46-1239-424c-b64e-9dc94a07f554');
 
-        dispatcher.on('start', () => {
-            console.log('audio.mp3 is now playing!');
-        });
+//         dispatcher.on('start', () => {
+//             console.log('audio.mp3 is now playing!');
+//         });
 
-        dispatcher.on('finish', async () => {
-            console.log('audio.mp3 has finished playing!');
-            await message.member.voice.channel.leave()
-        });
+//         dispatcher.on('finish', async () => {
+//             console.log('audio.mp3 has finished playing!');
+//             await message.member.voice.channel.leave()
+//         });
 
-        dispatcher.on('error', console.error);
-    } catch (error) {
-        console.log(error)
-    }
-})
+//         dispatcher.on('error', console.error);
+//     } catch (error) {
+//         console.log(error)
+//     }
+// })
 
 client.on("ready", () => console.log("Online!"));
 client.login(process.env.DISCORD_TOKEN)
